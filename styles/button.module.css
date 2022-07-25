@@ -1,0 +1,12 @@
+.btn_universal {
+    color: #ffff;
+    font-size: 0.9rem;
+    background-color: #121d55;
+    padding: 0.7rem;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.btn_universal:hover {
+    filter: brightness(120%);
+}

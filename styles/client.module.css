@@ -1,0 +1,70 @@
+.client_container {
+    text-align: center;
+    max-width: 1400px;
+    margin: auto;
+    padding: 5rem 3%;
+}
+
+.client_main_content {
+    width: 100%;
+    height: 100%;
+}
+/* 
+/* .Swiper_con {
+   
+} */
+.client_review {
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    padding: 7rem 1%;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.data_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* background-color: #fff; */
+    border: 1.2px solid #121d55;
+    border-radius: 7px;
+    max-width: 521.88px;
+    min-height: 177.94px;
+    padding: 0rem 9%;
+    position: relative;
+}
+
+.data_items p {
+    z-index: 50;
+    font-size: 0.938rem;
+}
+
+.data_items span.quote_left {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.data_items span.quote_right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.client_info {
+    color: #121d55;
+}

@@ -1,0 +1,11 @@
+.universal_header_title {
+    font-size: 2.813rem;
+    color: #121d55;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.universal_sub_header_title {
+    text-align: center;
+}

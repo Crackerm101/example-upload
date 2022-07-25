@@ -1,0 +1,90 @@
+.header_container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../public/Assets/home-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: fixed;
+}
+
+.header_items {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2%;
+    max-width: 1400px;
+    margin: auto;
+    gap: 0.8rem;
+    position: relative;
+}
+
+.header_buttom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Header Video ============= */
+
+/* ================= Social Icons ================= */
+
+.header_social {
+    color: #ffff;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.header_social:hover {
+    filter: brightness(120%);
+}
+
+.header_social span {
+    width: 68.5px;
+    height: 1.5px;
+    background-color: #ffff;
+}
+
+/* ================= Head Title ================= */
+
+.sub_header {
+    color: #ffff;
+    font-size: 1.3rem;
+}
+.header_title {
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    color: #ffff;
+    font-weight: 700;
+    max-width: 750px;
+    margin-bottom: 0.7rem;
+}
+
+/* ================= Registered ================= */
+.header_registered {
+    margin-top: 4.5rem;
+    background: rgba(255, 255, 255, 0.68);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    max-width: max-content;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .header_items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 2%;
+    }
+    .header_title {
+        font-size: 3rem;
+    }
+}

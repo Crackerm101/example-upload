@@ -1,0 +1,51 @@
+.support_container {
+    text-align: center;
+    padding: 5rem 2%;
+}
+
+.support_image {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    padding: 5rem 0%;
+    align-items: center;
+}
+
+.image_container {
+    filter: grayscale(100%);
+}
+
+.image_container:hover {
+    filter: grayscale(0%);
+}
+
+/* ================ Goal Section ================  */
+.goal_container {
+    margin-top: 5rem;
+    width: 100%;
+    min-height: 258px;
+    background-color: #121d55;
+    padding: 2rem 6%;
+}
+.goals {
+    margin: auto;
+    max-width: 1400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Goal_header {
+    font-size: 2.813rem;
+    color: #ffff;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+}
+
+.goals p {
+    color: #ffff;
+    line-height: 2rem;
+}
