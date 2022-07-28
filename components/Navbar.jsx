@@ -3,6 +3,7 @@ import Image from "next/image";
 import button from "../styles/button.module.css";
 import React, { useState, useEffect } from "react";
 // Navbar Active
+import Link from "next/link";
 
 import { MdMenu, MdMenuOpen } from "react-icons/md";
 
@@ -55,12 +56,13 @@ const Navbar = () => {
                         {isActive ? <MdMenuOpen /> : <MdMenu />}
                     </div>
                     <div className={styles.list_menu}>
-                        <a href="#" className={styles.List_item}>
-                            Home
-                        </a>
-                        <a href="#" className={styles.List_item}>
-                            About Us
-                        </a>
+                        <Link href="/">
+                            <a className={styles.List_item}>Home</a>
+                        </Link>
+
+                        <Link href="/About">
+                            <a className={styles.List_item}>About Us</a>
+                        </Link>
                         <a href="#" className={styles.List_item}>
                             Project Goals
                         </a>

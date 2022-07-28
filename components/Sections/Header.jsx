@@ -12,7 +12,7 @@ const Header = () => {
                     <AiFillInstagram />
                     <MdOutlineFacebook />
                 </div>
-                <div className={styles.sub_header}>Lucius Annaeus Seneca</div>
+                <div className={styles.sub_header}>Travel Onboard</div>
                 <div className={styles.header_title}>
                     We cant tell the wind direction, but we set the sails right!
                 </div>

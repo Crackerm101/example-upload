@@ -8,38 +8,38 @@ const Gallery = () => {
     const GalleryIMG = [
         {
             id: uuidv4(),
-            ImgGal: "/Assets/Gallery-1.jpg",
+            ImgGal: "/Assets/Gallery-1-min.webp",
             Gwidth: "491",
             Gheight: "581",
         },
         {
             id: uuidv4(),
-            ImgGal: "/Assets/Gallery-2.jpg",
+            ImgGal: "/Assets/Gallery-2-min.webp",
             Gwidth: "491",
             Gheight: "727",
         },
         {
             id: uuidv4(),
-            ImgGal: "/Assets/Gallery-3.jpg",
+            ImgGal: "/Assets/Gallery-3-min.webp",
             Gwidth: "491",
             Gheight: "581",
         },
         {
             id: uuidv4(),
-            ImgGal: "/Assets/Gallery-4.jpg",
+            ImgGal: "/Assets/Gallery-4-min.webp",
             Gwidth: "491",
             Gheight: "381",
         },
 
         {
             id: uuidv4(),
-            ImgGal: "/Assets/Gallery-5.jpg",
+            ImgGal: "/Assets/Gallery-5-min.webp",
             Gwidth: "491",
             Gheight: "234",
         },
         {
             id: uuidv4(),
-            ImgGal: "/Assets/Gallery-6.jpg",
+            ImgGal: "/Assets/Gallery-6-min.webp",
             Gwidth: "491",
             Gheight: "381",
         },

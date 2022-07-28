@@ -51,28 +51,24 @@ const Clients = () => {
                     style={{
                         "--swiper-pagination-color": "#2A2A2A",
                     }}
-                    // centeredSlides={true}
                     slidesPerView={2}
+                    spaceBetween={10}
                     autoplay={{
                         delay: 3500,
                         disableOnInteraction: false,
                     }}
                     loop={true}
                     breakpoints={{
-                        // when window width is <= 499px
-                        599: {
-                            slidesPerView: 1,
-                        },
-                        // when window width is <= 999px
-                        900: {
-                            slidesPerView: 1,
-                        },
                         1300: {
                             slidesPerView: 2,
                         },
+                        700: {
+                            slidesPerView: 1,
+                        },
+                        300: {
+                            slidesPerView: 1,
+                        },
                     }}
-                    loopFillGroupWithBlank={true}
-                    spaceBetween={5}
                     pagination={{
                         clickable: true,
                     }}

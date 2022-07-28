@@ -32,7 +32,7 @@ const Banner = () => {
                 <div className={styles.Banner_Image_con}>
                     <div className={styles.Banner_img}>
                         <Image
-                            src="/Assets/Banner-1.jpg"
+                            src="/Assets/Banner-1-min.webp"
                             alt="Image 1"
                             width={500}
                             height={656}
@@ -41,7 +41,7 @@ const Banner = () => {
                     <div className={styles.child_image_banner}>
                         <div className={styles.Banner_img}>
                             <Image
-                                src="/Assets/Banner-2.jpg"
+                                src="/Assets/Banner-2-min.webp"
                                 alt="Image 1"
                                 width={530}
                                 height={325}
@@ -50,7 +50,7 @@ const Banner = () => {
 
                         <div className={styles.Banner_img}>
                             <Image
-                                src="/Assets/Banner-3.jpg"
+                                src="/Assets/Banner-3-min.webp"
                                 alt="Image 1"
                                 width={530}
                                 height={325}

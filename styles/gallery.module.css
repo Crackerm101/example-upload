@@ -52,7 +52,7 @@
     grid-area: 5 / 3 / 8 / 4;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .btn_gallery {
         margin-top: 5rem;
     }

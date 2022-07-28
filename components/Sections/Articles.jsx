@@ -3,11 +3,13 @@ import Image from "next/image";
 import Uni from "../../styles/universalTitle.module.css";
 import button from "../../styles/button.module.css";
 import { v4 as uuidv4 } from "uuid";
+
+import Link from "next/link";
 const Articles = () => {
     const BlogArticle = [
         {
             id: uuidv4(),
-            articleIMG: "/Assets/Gallery-2.jpg",
+            articleIMG: "/Assets/Gallery-2-min.webp",
             articleTitle: "Article title 2",
             articleDate: "06/05/2022",
             articleDesc:
@@ -15,7 +17,7 @@ const Articles = () => {
         },
         {
             id: uuidv4(),
-            articleIMG: "/Assets/Gallery-3.jpg",
+            articleIMG: "/Assets/Gallery-3-min.webp",
             articleTitle: "Article title 3",
             articleDate: "06/05/2022",
             articleDesc:
@@ -23,7 +25,7 @@ const Articles = () => {
         },
         {
             id: uuidv4(),
-            articleIMG: "/Assets/Gallery-4.jpg",
+            articleIMG: "/Assets/Gallery-4-min.webp",
             articleTitle: "Article title 4",
             articleDate: "06/05/2022",
             articleDesc:
@@ -31,7 +33,7 @@ const Articles = () => {
         },
         {
             id: uuidv4(),
-            articleIMG: "/Assets/Gallery-5.jpg",
+            articleIMG: "/Assets/Gallery-5-min.webp",
             articleTitle: "Article title 5",
             articleDate: "06/05/2022",
             articleDesc:
@@ -39,7 +41,7 @@ const Articles = () => {
         },
         {
             id: uuidv4(),
-            articleIMG: "/Assets/Gallery-6.jpg",
+            articleIMG: "/Assets/Gallery-6-min.webp",
             articleTitle: "Article title 6",
             articleDate: "06/05/2022",
             articleDesc:
@@ -47,7 +49,7 @@ const Articles = () => {
         },
         {
             id: uuidv4(),
-            articleIMG: "/Assets/Gallery-3.jpg",
+            articleIMG: "/Assets/Gallery-3-min.webp",
             articleTitle: "Article title 7",
             articleDate: "06/05/2022",
             articleDesc:
@@ -82,9 +84,10 @@ const Articles = () => {
                         a clear, effective, and qualified in an effective and
                         long-lasting manner.
                     </p>
-                    <a href="#" className={button.btn_universal}>
-                        READ MORE
-                    </a>
+
+                    <Link href="/Article">
+                        <a className={button.btn_universal}>READ MORE</a>
+                    </Link>
                 </div>
                 <div className={styles.sub_blog}>
                     {BlogArticle.map((BlogData) => (
@@ -102,6 +105,7 @@ const Articles = () => {
                                     quality={35}
                                 />
                             </div>
+
                             <div className={styles.blog_data_content}>
                                 <h4>{BlogData.articleTitle}</h4>
                                 <p>{BlogData.articleDate}</p>

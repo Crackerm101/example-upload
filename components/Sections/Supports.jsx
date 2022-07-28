@@ -62,6 +62,7 @@ const Supports = () => {
                 <Swiper
                     // centeredSlides={true}\
                     slidesPerView={6}
+                    spaceBetween={10}
                     speed={1000}
                     autoplay={{
                         delay: 800,
