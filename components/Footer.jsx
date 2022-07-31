@@ -21,7 +21,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className={styles.footer_credit}>
-                © Kidsonboard 2022, All right reserved.Read Our Privacy Policy.
+                © TravelBoard 2022, All right reserved.Read Our Privacy Policy.
             </div>
         </div>
     );

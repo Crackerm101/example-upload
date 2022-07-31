@@ -67,7 +67,7 @@ const Articles = () => {
             <div className={styles.articles_items}>
                 <div className={styles.main_blog}>
                     <Image
-                        src="/Assets/Gallery-Blog-1.jpg"
+                        src="/Assets/Banner-2-min.webp"
                         alt=""
                         width={500}
                         height={420}
