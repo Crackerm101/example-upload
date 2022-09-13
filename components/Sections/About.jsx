@@ -40,7 +40,7 @@ export default function About() {
                         important foundation for goal achievement.
                     </div>
                     <a href="#" className={button.btn_universal}>
-                        EXPLORE MORE
+                        READ MORE
                     </a>
                 </div>
             </div>
